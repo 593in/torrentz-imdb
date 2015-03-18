@@ -21,7 +21,6 @@ if (pathName.match(/search/)) {
 
 			var spanWidth = parseInt(window.getComputedStyle(span).width);
 			dd.style.width = (parseInt(window.getComputedStyle(dd).width) + spanWidth) + 'px';
-			dt.style.width = (parseInt(window.getComputedStyle(dt).width) - spanWidth / 2) + 'px';
 		}
 	});
 
